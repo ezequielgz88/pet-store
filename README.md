@@ -1,4 +1,4 @@
-## Ejecutando las pruebas desde linea de comando:
+## Ejecutando las pruebas desde linea de comando (se requiere tener maven instalado):
     mvn test -Dtest=karateRunner
 
 ## Otras opciones:
