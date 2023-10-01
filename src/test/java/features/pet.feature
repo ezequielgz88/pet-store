@@ -2,8 +2,8 @@ Feature: Pet List
 
   Background:
     * url "https://petstore.swagger.io/v2/pet/"
-    * def requestBody = read('../request/createUser.json')
-    * def responseBody = read('../response/getUser.json')
+    * def requestBody = read('../requests/createUser.json')
+    * def responseBody = read('../responses/getUser.json')
 
 
   Scenario: List names of sold pets and count how many have the same name

@@ -2,8 +2,8 @@ Feature: Create user and recover data
 
   Background: 
     * url "https://petstore.swagger.io/v2"
-    * def requestBody = read('../request/createUser.json')
-    * def responseBody = read('../response/getUser.json')
+    * def requestBody = read('../requests/createUser.json')
+    * def responseBody = read('../responses/getUser.json')
 
 
   Scenario: Create a user
